@@ -1,0 +1,24 @@
+{
+  "name": "redis-cashing",
+  "version": "1.0.0",
+  "description": "This is POC app for Redis cashing",
+  "license": "ISC",
+  "author": "Rakesh Mondal",
+  "main": "app.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "node dist/app.js",
+    "dev": "tsc-watch --onSuccess \"npm start\""
+  },
+  "devDependencies": {
+    "@types/express": "^5.0.1",
+    "@types/node": "^22.15.18",
+    "tsc-watch": "^6.2.1",
+    "typescript": "^5.8.3"
+  },
+  "dependencies": {
+    "axios": "^1.9.0",
+    "express": "^5.1.0",
+    "redis": "^5.0.1"
+  }
+}
