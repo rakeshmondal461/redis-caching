@@ -11,7 +11,7 @@
 ## Running the Application using Docker
 
 ```bash
-# Start Firebase emulators
+# Run docker conatiner
 docker-compose up --build
 ```
 The application will be available at:
